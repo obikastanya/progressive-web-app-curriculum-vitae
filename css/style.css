@@ -1,0 +1,158 @@
+.sidenav li:hover {
+	background-color: #01579b !important;
+	color: white !important;
+	text-decoration: underline;
+}
+.sidenav li a:hover {
+	background-color: #01579b !important;
+	color: white !important;
+}
+.sidenav {
+	opacity: 0.92;
+}
+
+.container-profile {
+	margin: 3% 0;
+	min-height: 85vh;
+	padding-top: 1%;
+}
+.img-profile {
+	width: 40%;
+	height: 40%;
+}
+.profile-info {
+	font-size: 0.85em;
+}
+.profile-personal {
+	padding: 0 5% !important;
+}
+.profile-personal h5,
+.educations-personal h5,
+.experiences-personal h5,
+.skills-personal h5,
+.contacts-personal h5 {
+	padding: 18px 4px 20px 30px;
+	text-align: center;
+}
+.profile-personal table,
+.educations-personal table,
+.experiences-personal table,
+.skills-personal table,
+.contacts-personal table {
+	border-collapse: separate;
+	border-spacing: 0px 20px;
+}
+.profile-personal table tr td:nth-child(1) {
+	padding-left: 3%;
+}
+.profile-personal table tr td:nth-child(2),
+.experiences-personal table tr td:nth-child(2),
+.educations-personal table tr td:nth-child(2) {
+	padding-left: 10%;
+}
+#logo-container {
+	font-size: x-large;
+}
+
+.educations-personal span {
+	padding: 10% 15% 10% 15%;
+	border-radius: 2px;
+	font-weight: bold;
+}
+.educations-personal table tr td:nth-child(1) {
+	padding-left: 3%;
+	min-width: 150px;
+}
+
+.experiences-personal span {
+	padding: 5% 5% 5% 5%;
+	border-radius: 2px;
+	font-weight: bold;
+}
+.project-name,
+.stack {
+	padding: 0px !important;
+	font-weight: unset !important;
+	font-size: 1.2em;
+}
+.time {
+	min-width: 180px;
+	display: inline-block;
+}
+.stack {
+	font-size: 0.8em;
+}
+
+.skills-personal tr td:nth-child(1) {
+	width: 30%;
+}
+.skills-personal tr td {
+	vertical-align: middle !important;
+}
+.skills-personal .progress {
+	max-width: 80%;
+}
+.skills-personal .progress,
+.skills-personal .determinate {
+	border-radius: 6px;
+}
+.skills-personal td:nth-child(1) span,
+.contacts-personal td:nth-child(1) span {
+	display: inline-block !important;
+	text-align: center;
+	font-weight: bold;
+	padding: 3% 0% 3% 0%;
+	border-radius: 3px;
+	max-width: 100px;
+	min-width: 110px;
+}
+.profile-personal td:nth-child(1) span {
+	text-align: center;
+	padding: 12% 3% 12% 3%;
+	display: inline-block;
+	min-width: 90px;
+	min-width: 90px;
+	border-radius: 2px;
+	font-weight: bolder;
+}
+.contacts-personal td:nth-child(2) {
+	font-size: 1.2em;
+}
+.contacts-personal td:nth-child(2) img {
+	max-width: 30px;
+	margin-right: 5% !important;
+	margin-bottom: -1.5%;
+}
+.educations-personal .row .col {
+	margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+	.time {
+		max-width: 120px !important;
+		min-width: 100px !important;
+		display: inline-block;
+	}
+	.project-name,
+	.stack {
+		display: inline-block;
+	}
+	.skills-personal td:nth-child(2) {
+		padding-left: 12% !important;
+	}
+
+	.contacts-personal td:nth-child(2) {
+		font-size: 0.8em;
+		padding-left: 6% !important;
+	}
+	.contacts-personal td:nth-child(2) img {
+		max-width: 20px !important;
+		margin-right: 5% !important;
+		margin-bottom: -1.5%;
+	}
+	.contacts-personal td:nth-child(1) span {
+		padding: 4% 1% 4% 1% !important;
+		font-size: 0.8em !important;
+		max-width: 100px !important;
+	}
+}

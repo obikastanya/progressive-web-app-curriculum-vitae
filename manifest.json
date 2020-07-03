@@ -1,0 +1,21 @@
+{
+	"name": "Curicullum Vitae",
+	"short_name": "MY CV",
+	"description": "Submission PWA Dicoding",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background_color": "#01579b",
+	"theme_color": "#01579b",
+	"icons": [
+		{
+			"src": "/img/cv-icon-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/img/cv-icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
